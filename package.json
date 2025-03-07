@@ -84,5 +84,10 @@
     "smogon": "^3.0.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1"
+  },
+  "pkg": {
+    "targets" : ["node*-win-x64"],
+    "scripts" : ["dist/**/*.js"],
+    "assets"  : ["databases/**/*.sql"]
   }
 }
